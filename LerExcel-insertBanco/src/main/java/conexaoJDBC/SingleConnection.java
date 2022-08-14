@@ -5,8 +5,8 @@ import java.sql.DriverManager;
 
 public class SingleConnection {
 
-	private static String url = "jdbc:postgresql://localhost:5433/BaseFronerConstrucoes";
-	private static String password = "admin";
+	private static String url = "jdbc:postgresql://localhost:5433/baseDoBanco";
+	private static String password = "";
 	private static String user = "postgres";
 	
 	private static Connection conexao  = null;
