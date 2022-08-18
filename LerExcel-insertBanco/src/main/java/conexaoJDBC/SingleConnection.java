@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 
 public class SingleConnection {
 
-	private static String url = "jdbc:postgresql://localhost:5433/baseDoBanco";
+	private static String url = "jdbc:postgresql://localhost:5433/baseDoBanco?autoReconnect=true";
 	private static String password = "";
 	private static String user = "postgres";
 	
